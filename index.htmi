@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>wah2068games | SOLARIS: Quest for the Dark Star</title>
+  <meta name="description" content="wah2068games — SOLARIS: Quest for the Dark Star + Fantasy Horizons" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand__dot"></span>
+      <span class="brand__name">wah2068games</span>
+      <span class="brand__tag">/ system online</span>
+    </div>
+
+    <nav class="nav">
+      <a class="nav__link sfx" href="index.html" data-transition>Home</a>
+      <a class="nav__link sfx" href="solaris.html" data-transition>SOLARIS</a>
+      <a class="nav__link sfx" href="about.html" data-transition>About</a>
+      <a class="nav__link sfx" href="youtube.html">Fantasy Horizons</a>
+      <a class="nav__link sfx" href="contact.html" data-transition>Contact</a>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="card hero">
+      <div class="hero__left">
+        <h1 class="title">Welcome aboard.</h1>
+        <p class="subtitle">
+          This is the hub for <strong>SOLARIS: Quest for the Dark Star</strong> — a space adventure across four solar systems,
+          with mining, puzzles, upgrades, and a choice: build wealth… or join the fight.
+        </p>
+
+        <div class="btnrow">
+          <a class="btn btn--primary sfx" href="solaris.html" data-transition>
+            Enter Dark Star Briefing
+          </a>
+          <a class="btn sfx" href="youtube.html">
+            Open Fantasy Horizons
+          </a>
+        </div>
+
+        <p class="micro">
+          Tip: every click makes a sci-fi sound. Because silence is for spreadsheets.
+        </p>
+      </div>
+
+      <div class="hero__right">
+        <div class="hud">
+          <div class="hud__line">
+            <span>Status</span><span class="ok">Nominal</span>
+          </div>
+          <div class="hud__line">
+            <span>Sector</span><span>Dark Star vicinity</span>
+          </div>
+          <div class="hud__line">
+            <span>Signal</span><span>Unidentified entity detected</span>
+          </div>
+          <div class="hud__grid" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2 class="h2">SOLARIS</h2>
+        <p>
+          Explore planets, moons, asteroids and stations. Upgrade tools, mine resources, solve puzzles,
+          and uncover what’s feeding on the Dark Star.
+        </p>
+        <a class="link sfx" href="solaris.html" data-transition>View game overview →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="h2">Fantasy Horizons</h2>
+        <p>
+          Relaxing sci-fi music videos and atmospheres — for building, healing, or just escaping Earth for a bit.
+        </p>
+        <a class="link sfx" href="youtube.html">Go to the channel →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="h2">Build Log</h2>
+        <p>
+          Updates on game progress, designs, and experiments.
+        </p>
+        <span class="badge">Coming soon</span>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> wah2068games</span>
+    <span class="sep">•</span>
+    <span class="dim">Deployed via GitHub Pages</span>
+  </footer>
+
+  <div class="fade" id="fade" aria-hidden="true"></div>
+  <audio id="sfxClick" preload="auto" src="assets/click.mp3"></audio>
+  <audio id="sfxWhoosh" preload="auto" src="assets/whoosh.mp3"></audio>
+
+  <script src="main.js"></script>
+</body>
+</html>
